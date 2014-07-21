@@ -14,7 +14,7 @@
 #include "function.h"
 using namespace std;
 //
-//Ñòðóêòóðà ôàéëà: epsilon step n x[i] ... x[n - 1]
+//Структура файла: epsilon step n x[i] ... x[n - 1]
 //
 int main( void ){
 	FILE *file;
@@ -54,3 +54,4 @@ int main( void ){
 	delete []grad;
 	return 0;
 }
+
